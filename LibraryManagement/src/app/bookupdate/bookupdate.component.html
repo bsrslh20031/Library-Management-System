@@ -1,0 +1,11 @@
+<div><p>bookupdate works!</p>
+    <form>
+        bookid:<input type="text" name="bookid"[(ngModel)]="book.bookid"><br>
+        booktitle:<input type="text" name="booktitle"[(ngModel)]="book.booktitle"><br>
+        authorname:<input type="text" name="bookid"[(ngModel)]="book.authorname"><br>
+        booksavailable:<input type="text" name="booksavailable"[(ngModel)]="book.booksavailable"><br>
+        <input type="text" value="submit" (click)="bookupdate()">
+    </form>
+    
+    {{msg}}
+    </div>

@@ -1,0 +1,14 @@
+<div><p>studentupdate works!</p>
+    <form>
+        studentid:<input type="text" name="studentid"[(ngModel)]="student.studentid"><br>
+        studentname:<input type="text" name="studentname"[(ngModel)]="student.studentname"><br>
+        studentcardid:<input type="text" name="studentcardid"[(ngModel)]="student.studentcardid"><br>
+        studentemail:<input type="text" name="studentemail"[(ngModel)]="student.studentemail"><br>
+        studentphno:<input type="text" name="studentphno"[(ngModel)]="student.studentphno"><br>
+        bookid:<input type="text" name="bookid"[(ngModel)]="student.bookid"><br>
+        <input type="button" value="submit" (click)="studentupdate()">
+
+    </form>
+
+    {{msg}}
+    </div>

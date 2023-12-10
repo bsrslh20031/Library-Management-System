@@ -1,0 +1,24 @@
+<p>bookissuelist works!</p>
+<div>
+<table border="5">
+    <thead>
+        <tr>
+            <th>issueid</th>
+            <th>issuedate</th>
+            <th>returningdate</th>
+            <th>period</th>
+            <th>cardid</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let bookissuedetail of bookissuedetails">
+        <td>{{bookissuedetail.issueid}}</td>
+        <td>{{bookissuedetail.issuedate}}</td>
+        <td>{{bookissuedetail.returningdate}}</td>
+        <td>{{bookissuedetail.period}}</td>
+        <td>{{bookissuedetail.cardid}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <div class="img">
+    <img src="C:\Users\karer\Downloads\library.png" alt="Image" height="100px" width="100px">
+  </div>
+  <marquee>
+    <h1 align="center">Library Management System</h1>
+  </marquee>
+  <div class="content">
+    <h2 align="center">About</h2>
+    <p>An integrated Library Management System  is ERP software that helps in simplifying the daily operations of the library. The purpose of a library management system is to manage & track the daily work of the library such as issuing books, return books, due calculations, etc.
+    </p>
+    <h2 align="center">Features</h2>
+    <ol>
+      <li><B>Easy way to enter book data.</B></li>
+      <li><B>Simple, clear search interface for all users</B></li>
+      <li> <B>It can track any information online</B></li>
+      <li><B>Manage the records systematically</B></li>
+      <li><B> Easy to maintain records</B></li>
+    </ol>
+    <p>The benefits of Library Management System is efficient ,accurate,productive,scalable,compliance.It is designed based on modern businesses.This services help you to manage resources efficiently</p>
+</div>
+<div class="sidebarleft">
+  <h3 align="left">Books</h3>
+  <ul>
+    <li>
+      <a routerLink="getBooks" routerLinkActive="active" href="#">GetAllBooks</a>
+    </li>
+    <li>
+      <a routerLink="createBook" routerLinkActive="active" href="#">InsertBook</a>
+    </li>
+    <li>
+      <a routerLink="updateBook" routerLinkActive="active" href="#">updateBook</a>
+    </li>
+  </ul>
+
+  <h3 align="left">BookIssueDetails</h3>
+  <ul>
+    <li>
+      <a routerLink="getBookIssuesDetails" routerLinkActive="active" href="#">GetAllBookIssues</a>
+    </li>
+    <li>
+      <a routerLink="createBookIssue" routerLinkActive="active" href="#">InsertBookIssue</a>
+    </li>
+    <li>
+      <a routerLink="updateBookIssue" routerLinkActive="active" href="#">updateBookIssue</a>
+    </li>
+  </ul>
+  <h3 align="left">Student</h3>
+  <ul>
+    <li>
+      <a routerLink="getStudents" routerLinkActive="active" href="#">GetAllStudents</a>
+    </li>
+    <li>
+      <a routerLink="createStudent" routerLinkActive="active" href="#">InsertStudent</a>
+    </li>
+    <li>
+      <a routerLink="updateStudent" routerLinkActive="active" href="#">updateStudent</a>
+    </li>
+    </ul>
+  <h3 align="left">Staff</h3>
+  <ul>
+    <li>
+      <a routerLink="getStaffs" routerLinkActive="active" href="#">GetAllStaffs</a>
+    </li>
+    <li>
+      <a routerLink="createStaff" routerLinkActive="active" href="#">InsertStaff</a>
+    </li>
+    <li>
+      <a routerLink="updateStaff" routerLinkActive="active" href="#">updateStaff</a>
+    </li>
+  </ul>
+  <router-outlet></router-outlet>
+</div>
+</html>

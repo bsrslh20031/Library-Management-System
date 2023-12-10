@@ -1,0 +1,31 @@
+.img{
+    width: 20%;
+    padding: 15px;
+    background-color: bisque;
+    border-color: burlywood;
+}
+
+.content h2{
+    color: aquamarine;
+    background-color: turquoise;
+    border-style: groove;
+    text-align: justify;
+}
+.content p{
+    color: burlywood;
+    background-color: turquoise;
+    border-style: groove;
+    text-align: justify;
+}
+.sidebarleft ul{
+    list-style-type: none;
+    padding: 0;
+    flex-direction: row;
+}
+.sidebarleft li{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rosybrown;
+    border-style: groove;
+    border-color: black;
+}

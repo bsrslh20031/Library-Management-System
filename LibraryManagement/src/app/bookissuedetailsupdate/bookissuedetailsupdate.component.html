@@ -1,0 +1,13 @@
+<div><p>bookissuedetailupdate works!</p>
+    <form>
+        issueid:<input type="text" name="issueid"[(ngModel)]="bookissuedetail.issueid"><br>
+        issuedate:<input type="text" name="issuedate"[(ngModel)]="bookissuedetail.issuedate"><br>
+        returningdate:<input type="text" name="returningdate"[(ngModel)]="bookissuedetail.returningdate"><br>
+        period:<input type="text" name="period"[(ngModel)]="bookissuedetail.period"><br>
+        cardid:<input type="text" name="cardid"[(ngModel)]="bookissuedetail.cardid"><br>
+        <input type="text" value="submit" (click)="bookissuedetailupdate()">
+    </form>
+    
+    {{msg}}
+    </div>
+

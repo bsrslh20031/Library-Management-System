@@ -1,0 +1,27 @@
+<p>stafflist works!</p>
+<div>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>staffid</th>
+                <th>staffname</th>
+                <th>staffcardid</th>
+                <th>staffemail</th>
+                <th>staffphno</th>
+                <th>staffqualification</th>
+                <th>studentid</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let staff of staffs ">
+            <td>{{staff.staffid}}</td>
+            <td>{{staff.staffName}}</td>
+            <td>{{staff.staffcardid}}</td>
+            <td>{{staff.staffemail}}</td>
+            <td>{{staff.staffphno}}</td>
+            <td>{{staff.staffqualification}}</td>
+            <td>{{staff.studentid}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

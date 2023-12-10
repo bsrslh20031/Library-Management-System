@@ -1,0 +1,13 @@
+<p>createbook works!</p>
+<div>
+    <h1></h1>
+    <form>
+       bookid:<input type="text" name="bookid"[(ngModel)]="book.bookid"><br>
+       booktitle:<input type="text" name="booktitle"[(ngModel)]="book.booktitle"><br>
+       authorname:<input type="text" name="authorname"[(ngModel)]="book.authorname"><br>
+       booksavailable:<input type="text" name="booksavailable"[(ngModel)]="book.booksavailable"><br>
+       <input type="button" value="submit" (click)="createBook()">
+
+    </form>
+    {{msg}}
+</div>
